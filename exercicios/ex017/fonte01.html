@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            /* 
+            Medidas Absolutas 
+            cm, mm, in, px, pt, pc 
+            
+            Medidas Relativas
+            em, ex, rem, vw, vh, %
+            16px geralmente = 1em
+            Use em ou px --> Recomendação oficial
+            */
+           font-size: 1em;
+           font-style: italic;
+           font-weight: normal;
+           /* lighter normal bold bolder  
+              100-900
+              400 = normal
+           */
+        }
+
+        h1 {
+            /*shorthand font 
+             font-style -> font-weight -> font-size -> font-family
+
+            font-family: 'Work Sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic; 
+            */
+            font: italic bolder 3em 'Work Sans' sans-serif;
+        }
+
+        h2 {
+            font: bold 2em sans-serif
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, deserunt aliquam quod nam mollitia aspernatur corrupti ex totam, earum quaerat exercitationem deleniti nobis minima nulla molestiae accusamus beatae dolorem. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque cumque sapiente, voluptatum numquam soluta sint aliquam facilis nam quam voluptas asperiores tenetur, accusantium explicabo adipisci enim aspernatur consequuntur rerum maiores!</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit repudiandae minus laudantium error ut aliquid doloribus tempora ab itaque. Delectus nulla, quis eius eaque optio maiores id necessitatibus laudantium ducimus?</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vel repudiandae soluta laboriosam. Distinctio accusantium quisquam obcaecati dolorum dolorem quae sit architecto nesciunt, pariatur dignissimos repellat aut quibusdam autem illum? lore</p>
+</body>
+</html>

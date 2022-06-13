@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+div#div01 {
+    display: block;
+}
+
+.espaco {
+    background: url(imagens/espaco.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+img#astronauta {
+    background: url(imagens/astronauta.png) no-repeat center center;
+}
