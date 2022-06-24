@@ -72,24 +72,26 @@ section.normal {
 
 section.imagem {
     color: white;
-    background-color: rgb(49, 49, 49);
+    background-color: rgba(49, 49, 49, 0.973);
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.432);
     background-size: cover;
-
 }
 
 section.imagem > p {
     display: inline-block;
     padding: 5px;
     background-color: rgba(0, 0, 0, 0.301);
+    text-shadow: 1px 1.5px 0px black;
+    
 
 }
 
 #fundo1 {
-    background: black url('../imagens/background003.jpg') center top no-repeat fixed;
+    background: black url('../imagens/background003.jpg') center center no-repeat fixed;  
 }
 
 #fundo2 {
-    background: black url('../imagens/background002.jpg') center top no-repeat fixed;
+    background: black url('../imagens/background002.jpg') right center no-repeat fixed;
 }
 
 footer {
