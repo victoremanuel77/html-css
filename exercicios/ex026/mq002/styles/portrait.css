@@ -1,4 +1,7 @@
 @charset "UTF-8";
 
 /* Retrato (dispositivo em pé) */ 
-
+body {
+    background: url('../images/cev-portrait.jpg') no-repeat center bottom;
+    background-size: 50vh;
+}
