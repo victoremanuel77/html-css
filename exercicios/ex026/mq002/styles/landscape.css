@@ -3,5 +3,6 @@
 /* Paisagem (dispositivo deitado) */ 
 
 body {
-    background: url('../images/cev-landscape.jpg') no-repeat left bottom;
+    background-image: url('../images/cev-landscape.jpg');
+    background-position: left bottom;
 }
