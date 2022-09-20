@@ -2,7 +2,6 @@
 
 /*Versão para demais dispositivos */
 
-
 @media screen and (min-width: 768px) { /* Tablets */
     body {
         background: black url('../images/back-tablet.jpg');
