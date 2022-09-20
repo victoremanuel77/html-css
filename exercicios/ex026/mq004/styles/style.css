@@ -15,11 +15,14 @@ html {
 }
 
 body {
-    background: black url('../image/back-phone.jpg');
+    background: black url('../images/back-phone.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 main {
-    background-color: rgba(255, 255, 255, 0.288);
+    background-color: rgba(128, 128, 128, 0.356);
     width: 90vw;
     margin:  10px auto;
     padding: 10;
@@ -28,10 +31,10 @@ main {
 }
 
 h1 {
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: 2em;
-    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.212);
-    text-align: center;versão mobile do exercício 0
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.212);
+    text-align: center;
     padding-top: 10px;
 }
 

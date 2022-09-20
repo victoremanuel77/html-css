@@ -1,0 +1,76 @@
+@charset "UTF-8";  
+
+/*Versão para demais dispositivos */
+
+
+@media screen and (min-width: 768px) { /* Tablets */
+    body {
+        background: black url('../images/back-tablet.jpg');
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+    }
+
+    #tablet {display: block;}
+    #phone {display: none;}
+    #tv {display: none;}
+    #print {display: none;}
+    #pc {display: none;}
+}
+
+
+@media screen and (min-width: 992px) { /*notebooks/desktops */
+    body {
+        background: black url('../images/back-pc.jpg');
+        background-repeat: no-repeat;background-position: center center;
+        background-size: cover;
+    }
+
+    #pc {display: block;}
+    #tablet {display: none;}
+    #phone {display: none;}
+    #tv {display: none;}
+    #print {display: none;}
+}
+
+
+@media screen and (min-width: 1200px) { /* TVs/grandes monitores */
+    body {
+        background: black url('../images/back-tv.jpg');
+        background-repeat: no-repeat; background-position: center center;
+    }
+
+    #tv {display: block;}
+    #pc {display: none;}
+    #tablet {display: none;}
+    #phone {display: none;}
+    #print {display: none;}
+}
+
+@media print { /* Impressão */
+    * {
+        font-family: 'Courier New', Courier, monospace;
+        
+    }
+
+    main {
+        border: 2px solid black;
+        box-shadow: none;
+    }
+    main h1 {
+        color: black;
+        text-shadow: none;
+    }
+
+    body::after {
+        content: 'Essa impressão foi feita através do site ,victoremanuel77.github.io/html-css/exercicios/ex026/mq004/index';
+    }
+    
+    #print {display: block;}
+    #tv {display: none;}
+    #pc {display: none;}
+    #tablet {display: none;}
+    #phone {display: none;}
+    
+}
+
