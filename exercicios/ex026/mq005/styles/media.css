@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) {
+    #menuIcon {
+        display: none;
+    }
+
+    menu {
+        display: block;
+        text-align: center;
+    }
+
+    menu li {
+        display: inline-block;
+        width: 200px;
+    } 
+
+    menu a {
+        border-style: none;
+        padding: 15px;
+        
+    }
+
+    main {
+        margin: auto;
+        margin-top: 30px;
+        width: 900px;
+    }
+
+    footer{
+        background-color: var(--cor-header); 
+        color: #ffffff;
+        width: 100%;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;
+    }
+
+}
+
+@media print {
+    * {
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    h2, p {
+        font-size: 1.5em;
+        line-height: 1.5em;
+    }
+
+}
